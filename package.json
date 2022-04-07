@@ -1,16 +1,13 @@
 {
-  "name": "handsontable",
-  "description": "Handsontable is a JavaScript Spreadsheet Component available for React, Angular and Vue.",
+  "name": "handsontable-secure-open-source",
+  "description": "Handsontable is a JavaScript Spreadsheet Component available for React, Angular and Vue. I'm trying to update some security issues for the last opensource version.",
   "homepage": "https://handsontable.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/handsontable/handsontable.git"
-  },
-  "bugs": {
-    "url": "https://github.com/handsontable/handsontable/issues"
+    "url": "https://github.com/Codypinto23/handsontable"
   },
   "author": "Handsoncode <hello@handsontable.com>",
-  "version": "6.2.2",
+  "version": "6.2.3",
   "browser": "dist/handsontable.js",
   "main": "commonjs/index.js",
   "module": "es/index.js",
@@ -59,9 +56,9 @@
     "data-spreadsheet"
   ],
   "dependencies": {
-    "moment": "2.20.1",
-    "numbro": "^2.0.6",
-    "pikaday": "1.5.1"
+    "moment": "^2.29.2",
+    "numbro": "^2.3.6",
+    "pikaday": "^1.8.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
